@@ -1,0 +1,13 @@
+.select-type {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.select-type select {
+    width: 12.5em;
+    border: 5px outset black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 0.8em;
+    width: 12.5em;
+}

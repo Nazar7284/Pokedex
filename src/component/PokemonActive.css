@@ -1,0 +1,94 @@
+.details {
+    display: none;
+}
+
+.visible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 25em;
+    border: 0.15em solid black;
+    padding: 1.8em;
+    position: fixed;
+    top: 10%;
+    right: 13%;
+    margin-top: 6.25em;
+}
+
+.visible img {
+    width: 12.5em;
+    height: 12.5em;
+}
+
+.visible h2 {
+    margin: 0.5em 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 0.05em solid black;
+    padding: 0.5em;
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+    .visible {
+        width: 20em;
+        top: 10%;
+        right: 13%;
+        margin-top: 6.25em;
+    }
+
+    .visible img {
+        width: 8em;
+        height: 8em;
+    }
+
+    .visible h2 {
+        margin: 0.5em 0;
+        font-size: 1.5em;
+    }
+
+    th,
+    td {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:800px) {
+    .visible {
+        width: 10em;
+        top: 15%;
+        right: 15%;
+        margin-top: 6.25em;
+        padding: 0.5em;
+    }
+
+    .visible img {
+        width: 4em;
+        height: 4em;
+    }
+
+    .visible h2 {
+        margin: 0.5em 0;
+        font-size: 1em;
+    }
+
+    th,
+    td {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width:500px) {
+    .visible {
+        right: 10%;
+    }
+}
